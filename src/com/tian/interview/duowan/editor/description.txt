@@ -1,0 +1,14 @@
+多玩的一题题目：
+有一文本编辑器，
+输入命令type x 则向文本编辑器追加字符x, 
+如 x 的范围为a-z ,还有一个命令为undo 2,
+为回滚几秒前的时间的数据,
+求实现方法getText(String[] cmds ,int [] times)
+
+etc:
+second1:type a 
+second2:type b
+second3:type c
+second4:undo 2
+
+print a
